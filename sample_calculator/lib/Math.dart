@@ -1,4 +1,5 @@
 import 'dart:ffi';
+import 'dart:math';
 
 class Math {
   static final double _precision = 11;
@@ -33,5 +34,14 @@ class Math {
     if (number == 1) return 1;
 
     return number * factorial(number - 1);
+  }
+
+  static double square_root(double number) {
+    if (number == 1 || number == 0) return number;
+    return sqrt(number);
+  }
+
+  static void MyFunc2() {
+    print("Neil");
   }
 }
