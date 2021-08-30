@@ -34,4 +34,8 @@ class Math {
 
     return number * factorial(number - 1);
   }
+
+  static void MyFunc1() {
+    print('Christian');
+  }
 }
