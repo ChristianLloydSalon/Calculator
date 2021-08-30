@@ -36,6 +36,10 @@ class Math {
     return number * factorial(number - 1);
   }
 
+  static void MyFunc1() {
+    print('Christian');
+  }
+
   static double square_root(double number) {
     if (number == 1 || number == 0) return number;
     return sqrt(number);
