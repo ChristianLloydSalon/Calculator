@@ -1,4 +1,3 @@
-import 'dart:ffi';
 import 'dart:math';
 
 class Math {
@@ -46,6 +45,6 @@ class Math {
   }
 
   static void MyFunc2() {
-    print("Neil");
+    print('Neil');
   }
 }
