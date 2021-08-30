@@ -2,4 +2,4 @@
 
 This repo is for practicing Git only.
 
-Add something, after this line.
+Add something after this line.
