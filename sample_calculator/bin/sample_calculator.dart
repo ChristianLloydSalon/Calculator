@@ -1,5 +1,5 @@
-import 'package:sample_calculator/sample_calculator.dart' as sample_calculator;
+import 'package:sample_calculator/Math.dart';
 
 void main(List<String> arguments) {
-  print('Hello world: ${sample_calculator.calculate()}!');
+  print('Hello world: ${Math.Sin(180)}!');
 }
